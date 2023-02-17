@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(58, 58, 60);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+.container h1 {
+    color: #fff;
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input, button {
+    display: block;
+    padding: 6px;
+    margin-bottom: 5px;
+    width: 100%;
+    
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background-color: #ecf1ee;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.sucessmessage {
+    color: green;
+    font-size: 16px;
+    margin-left: 50px;
+    display: none;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 16px;
+    margin-left: 52px;
+    display: none;
+
+}
+
+input .error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
