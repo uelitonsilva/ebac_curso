@@ -17,14 +17,11 @@ const sucessmessage = ('Os valores estão corretos!')
 function validaCampo(campoA, campoB) {
 
     if (campoA.value < campoB.value) {
-        const messagemsucesso = document.querySelector('.sucessmessage');
-        messagemsucesso.innerHTML = sucessmessage;
-        messagemsucesso.style.display = 'block';
+        alert('Os valores estão corretos!!')
     }
 
     else {
-        campoB.style.border = '1px solid red'
-        document.querySelector('.errorMessage').style.display = 'block';
+        alert('O valor do campo B precisa ser maior que o campo A!!')
         
     }
 }
