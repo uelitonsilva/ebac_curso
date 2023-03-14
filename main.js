@@ -1,5 +1,6 @@
 $('form').on('submit', function(e){
   e.preventDefault();
+  
   const inputTarefa = $('#nome-tarefa[type="text"]').val();
   const novaTarefa = $('<li></li>')
   
