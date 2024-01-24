@@ -35,4 +35,5 @@ exports.watch = function(){
 }
 
 exports.images = comprimeImagens;
+
 exports.javascript = comprimeJavaScript;
